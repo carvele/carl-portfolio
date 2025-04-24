@@ -1,5 +1,142 @@
-<center>
-<img src="new.png" width="100%"/>
-<br/>
-<img src="ceu_codecamp.jpg"/>
-</center>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            margin: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            width: 70%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            border-bottom: 2px solid #444;
+            padding-bottom: 15px;
+        }
+        .header img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border: 2px solid #444;
+        }
+        .info {
+            flex: 1;
+        }
+        .section {
+            margin-top: 20px;
+        }
+        .section h3 {
+            background: #444;
+            color: white;
+            padding: 8px;
+            border-radius: 5px;
+        }
+        .signature {
+            margin-top: 40px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .signature p {
+            margin: 5px 0;
+        }
+        .signature hr {
+            width: 50%;
+            margin: 5px auto;
+        }
+        input, textarea {
+            width: 100%;
+            border: none;
+            outline: none;
+            background: transparent;
+            border-bottom: 1px solid #ccc;
+            padding: 5px;
+            font-size: 16px;
+        }
+        textarea {
+            resize: none;
+            min-height: 50px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="photo">
+                <img src="carlo.png" alt="2x2 picture">
+            </div>
+            <div class="info">
+                <h2>Wee, Carl Vener</h2>
+                <p>Address: <input type="text" placeholder="Jasmine Street. Doña Francisca, Balanga City, Bataan"></p>
+                <p>Contact Number: <input type="text" placeholder="09123659917"></p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h3>Objective</h3>
+            <p><textarea rows="2">Seeking a part-time role where I can leverage my communication and time management skills while balancing academic and professional responsibilities.</textarea></p>
+        </div>
+        
+        <div class="section">
+            <h3>Education</h3>
+            <p><strong>Senior High School</strong></p>
+            <p>School: <input type="text" placeholder="Bataan National High School SHS"></p>
+            <p>Address: <input type="text" placeholder="Roman Superhighway, Tenejero, Balanga City, Bataan"></p>
+            <p>Year: <input type="text" placeholder="2021 - 2023"></p>
+            
+            <p><strong>Junior High School</strong></p>
+            <p>School: <input type="text" placeholder="Bataan National High School JHS"></p>
+            <p>Address: <input type="text" placeholder="Roman Superhighway, Tenejero, Balanga City, Bataan"></p>
+            <p>Year: <input type="text" placeholder="2017 - 2021"></p>
+        </div>
+        
+        <div class="section">
+            <h3>Personal Skills</h3>
+            <ul>
+                <li><input type="text" placeholder="Communication"></li>
+                <li><input type="text" placeholder="Teamwork"></li>
+                <li><input type="text" placeholder="Time Management"></li>
+                <li><input type="text" placeholder="Adaptability"></li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h3>Trainings and Seminars Attended</h3>
+            <ul>
+                <li><input type="text" placeholder="First-Aid Training with DRRR subject"></li>
+                <li><input type="text" placeholder="First-Aid lesson from MAAP higher-ups"></li>
+            </ul>
+        </div>
+        
+        <p>I hereby certify that the above information is true to the best of my knowledge.</p>
+        
+        <div class="signature">
+            <hr>
+            <p>CARL VENER WEE</p>
+            <p>Student’s Signature</p>
+        </div>
+    </div>
+</body>
+</html>
